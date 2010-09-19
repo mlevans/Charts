@@ -1,1 +1,1 @@
-This will be an evolution of an advanced charting component in ActionScript 3.0 (similar to charting components found on Google Finance).
+This is a collection of charting/data visualization components in ActionScript 3.0.

@@ -1,3 +1,6 @@
+//This will be an evolution of an advanced charting component in ActionScript 3.0 
+//(similar to charting components found on Google Finance).
+
 package
 {
 	import flash.display.Sprite;
@@ -131,7 +134,7 @@ package
 			
 			
 			//Loading Data
-			var urlRequest:URLRequest = new URLRequest('data/NewData.xml');
+			var urlRequest:URLRequest = new URLRequest('data/SampleData.xml');
 			urlLoader = new URLLoader();
 			urlLoader.load(urlRequest);
 			urlLoader.addEventListener(Event.COMPLETE, processData, false, 0, true);
@@ -413,7 +416,7 @@ package
 			channel.removeEventListener(MouseEvent.MOUSE_MOVE, draggingMiddleControl);
 		}
 		
-		//Making My Own Date Class; this is for charts based on days; int vs. number
+		//Making My Own Date Method; this is for charts based on days; int vs. number
 		
 		private function getTimeStamp(month:int, day:int, year:int):int{
 			//Number of Days since January 1st, 1995; getTimeStamp(1,1,1995) = 0;
