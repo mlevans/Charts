@@ -1,7 +1,7 @@
 //This will be an evolution of an advanced charting component in ActionScript 3.0 
 //(similar to charting components found on Google Finance).
 
-package
+package Charts
 {
 	import flash.display.Sprite;
 	import flash.events.Event;
